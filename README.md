@@ -41,7 +41,7 @@ offsetCfg.GroupID = groupId
 offsetCfg.Username = ""
 offsetCfg.Password = ""
 offsetCfg.Partition = 0
-offsetCfg.ResetOffset = 2
+// offsetCfg.ResetOffset = 2 //reset offset 
 s.ConsumerClient = kafka_sdk_go.NewConsumerClient(gcfg, offsetCfg)
 
 // consume message
